@@ -1,0 +1,176 @@
+.fish-list {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .fish-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .fish-list .btn-them {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .fish-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .fish-list th, .fish-list td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .fish-list th {
+    background-color: #f0f0f0;
+  }
+
+  .fish-list .btn-sua, .fish-list .btn-xoa {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .fish-list .btn-sua {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .fish-list .btn-xoa {
+    background-color: #dc3545;
+    color: #fff;
+  }
+
+  /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #f8f9fa;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Image Styles */
+.product-img {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-sua {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-sua:hover {
+  background-color: #0056b3;
+}
+
+.btn-xoa {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-xoa:hover {
+  background-color: #c82333;
+}
+/* Button General Styles */
+button {
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+/* btn-round Styles */
+.btn-round {
+  border-radius: 50px;
+}
+
+/* btn-them Specific Styles */
+.btn-them {
+  background-color: #28a745; /* Default color */
+  color: white;
+  border-color: #28a745; /* Outline border color */
+}
+
+.btn-them:hover {
+  background-color: white; /* Color on hover */
+  color: #28a745; /* Text color on hover */
+  border-color: #28a745; /* Border color on hover */
+}
+
+/* Outline variant */
+.btn-them[outline] {
+  background-color: transparent;
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-them[outline]:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-them[size="lg"] {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+.plant-list{
+  margin-top: 50px;
+}
+.image-size{
+  width: 300px;
+  height: 140px;
+}
+.insert-title{
+  
+  margin-top: 50px;
+}
